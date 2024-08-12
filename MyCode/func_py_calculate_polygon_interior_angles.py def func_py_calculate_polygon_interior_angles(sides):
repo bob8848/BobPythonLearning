@@ -1,0 +1,5 @@
+# func_py_calculate_polygon_interior_angles.py
+def func_py_calculate_polygon_interior_angles(sides):
+    return (sides - 2) * 180
+
+print(func_py_calculate_polygon_interior_angles(5))
